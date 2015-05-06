@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InputFile_Define_Dialog</class>
+ <widget class="QDialog" name="InputFile_Define_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>715</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>360</y>
+     <width>156</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>340</width>
+     <height>260</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>GroupBox</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="6" column="0" colspan="2">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Scale</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>a2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>iModel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>f1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QComboBox" name="comboBox_Scale"/>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>f2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>a1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6">
+     <widget class="QComboBox" name="comboBox_iModel"/>
+    </item>
+    <item row="0" column="0" colspan="3">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>MaxIter</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Tol</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QLineEdit" name="lineEdit_MaxIter"/>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Gamma</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6" alignment="Qt::AlignLeft">
+     <widget class="QLineEdit" name="lineEdit_Tol"/>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>evmin</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3" colspan="4">
+     <widget class="QLineEdit" name="lineEdit_evmin"/>
+    </item>
+    <item row="7" column="0" colspan="3">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>dt flag</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3" colspan="4">
+     <widget class="QLineEdit" name="lineEdit_dtFlag"/>
+    </item>
+    <item row="2" column="6">
+     <widget class="QLineEdit" name="lineEdit_Gamma"/>
+    </item>
+    <item row="4" column="6">
+     <widget class="QLineEdit" name="lineEdit_a2"/>
+    </item>
+    <item row="5" column="6">
+     <widget class="QLineEdit" name="lineEdit_f2"/>
+    </item>
+    <item row="6" column="6">
+     <widget class="QLineEdit" name="lineEdit_Period"/>
+    </item>
+    <item row="6" column="3" colspan="3">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Period</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_f1"/>
+    </item>
+    <item row="4" column="1" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_a1"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>9</y>
+     <width>332</width>
+     <height>260</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>GroupBox</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="5">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>RanFactor</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>Groupsize</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="2">
+     <widget class="QLabel" name="label_20">
+      <property name="text">
+       <string>freqMatch1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QLabel" name="label_22">
+      <property name="text">
+       <string>BaselineCorFlag</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0" colspan="4">
+     <widget class="QLabel" name="label_23">
+      <property name="text">
+       <string>Scale Factor  </string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="6" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_RanFactor"/>
+    </item>
+    <item row="3" column="0" colspan="3">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>nPole</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>fBand</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="3">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>iModPGA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>MaxFreq</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>iSeed</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLineEdit" name="lineEdit_freqMatch1"/>
+    </item>
+    <item row="7" column="5">
+     <widget class="QLabel" name="label_21">
+      <property name="text">
+       <string>freqMatch2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="lineEdit_fBand_1"/>
+    </item>
+    <item row="7" column="6" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_freqMatch2"/>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLineEdit" name="lineEdit_iSeed"/>
+    </item>
+    <item row="8" column="5" colspan="3">
+     <widget class="QComboBox" name="comboBox_BaselineCorFlag"/>
+    </item>
+    <item row="3" column="5" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_nPole"/>
+    </item>
+    <item row="2" column="5" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_fBand_2"/>
+    </item>
+    <item row="0" column="5" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_Groupsize"/>
+    </item>
+    <item row="1" column="5" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_MaxFreq"/>
+    </item>
+    <item row="9" column="5" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_ScaleFactor"/>
+    </item>
+    <item row="4" column="5" colspan="3">
+     <widget class="QComboBox" name="comboBox_iModPGA"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>201</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>681</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>GroupBox</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_open_TgtResponse">
+      <property name="text">
+       <string>OpenTargetSpecFile</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_tgt_filename"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pushButton_open_InitialAccFile">
+      <property name="text">
+       <string>OpenInitialAccFile</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="lineEdit_InintialAccFile"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Generate_inpFile">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>360</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Generate inp File</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>InputFile_Define_Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>InputFile_Define_Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
